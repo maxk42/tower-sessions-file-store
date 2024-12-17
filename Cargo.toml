@@ -3,11 +3,14 @@ name = "tower-sessions-file-store"
 description = "File-based session store for `tower-sessions`."
 authors = ["Max Katz <max.katz@gmail.com>"]
 license = "MIT"
+homepage = "https://github.com/maxk42/tower-sessions-file-store"
+repository = "https://github.com/maxk42/tower-sessions-file-store"
 keywords = ["axum", "sessions", "tower", "file", "files", "tower-sessions", "storage"]
 categories = ["asynchronous", "network-programming", "web-programming"]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 readme = "README.md"
+
 
 [dependencies]
 axum = "0.7.9"

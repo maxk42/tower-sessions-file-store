@@ -1,5 +1,5 @@
 [package]
-name = "tower-sessions-file-store"
+name = "tower-sessions-file-based-store"
 description = "File-based session store for `tower-sessions`."
 authors = ["Max Katz <max.katz@gmail.com>"]
 license = "MIT"

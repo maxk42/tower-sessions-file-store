@@ -1,0 +1,15 @@
+[package]
+name = "tower-sessions-file-store"
+description = "File-based session store for `tower-sessions`."
+authors = ["Max Katz <max.katz@gmail.com>"]
+license = "MIT"
+keywords = ["axum", "sessions", "tower", "file", "files", "tower-sessions", "storage"]
+categories = ["asynchronous", "network-programming", "web-programming"]
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+
+[dependencies]
+axum = "0.7.9"
+serde_json = "1.0.133"
+tower-sessions = "0.13.0"

@@ -1,7 +1,7 @@
-# tower-sessions-file-store
+# tower-sessions-file-based-store
 
-`tower-sessions-file-store` is a simple and minimalistic file store backing provider for
-`tower-sessions`.  Usage is extremely simple;
+`tower-sessions-file-based-store` is a simple and minimalistic file store backing provider for
+`tower-sessions`.  Usage is extremely simple:
 
 ## Example:
 ```

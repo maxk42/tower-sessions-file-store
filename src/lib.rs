@@ -35,7 +35,6 @@ use tower_sessions::{
     },
 };
 
-#[derive(Clone, Debug, Default)]
 /// Creates a FileStore struct and stores its configuration.  Specifying the `dir`, `prefix`, and
 /// `extension` fields will define how session.
 /// 
@@ -52,6 +51,7 @@ use tower_sessions::{
 /// ```
 /// 
 /// 
+#[derive(Clone, Debug, Default)]
 pub struct FileStore {
     /// Directory to use for session storage.  Omit any trailing slashes or path separators.
     pub dir: &'static str,
@@ -96,14 +96,6 @@ impl FileStore {
         let serialized = serde_json::to_string(&record).map_err(|e| Decode(e.to_string()))?;
         fs::write(self.path(&record.id), serialized).map_err(|e| Decode(e.to_string()))
     }
-    /*
-    fn map_err(result: Box<dyn Result>) -> session_store::Result<()> {
-        if result.is_err() {
-            return Decode(result.to_string());
-        }
-        result
-    }
-    */
 }
 
 #[async_trait]

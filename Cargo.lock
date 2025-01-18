@@ -844,7 +844,7 @@ dependencies = [
 
 [[package]]
 name = "tower-sessions-file-based-store"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "axum",
  "serde_json",

@@ -15,4 +15,4 @@ readme = "README.md"
 [dependencies]
 axum = "0.7.9"
 serde_json = "1.0.133"
-tower-sessions = "0.13.0"
+tower-sessions = "0.14.0"
